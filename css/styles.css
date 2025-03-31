@@ -414,3 +414,50 @@ body {
 .carousel-nav.next {
     right: 0;
 }
+
+.quadro-abaixo-carrossel {
+    width: 600px;
+    height: 500px;
+    left: 0.5px;
+    background: #C2C2C2;
+
+}
+
+.caneca-imagem {
+    width: 523.3763031900302px;
+    height: 528.1708590506083px;
+    position: absolute; /* Posiciona a imagem dentro do quadro */
+    top: 300x;
+    left: 32.62px;
+    transform: rotate(1.54deg); /* Rotaciona a imagem */
+}
+
+.quadro-adicional {
+    width: 487px;
+    height: 536px;
+    top: 105.5px;
+    left: 690px;
+    position: absolute;
+    
+}
+
+.quadro-adicional p {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 5%;
+    margin-top: 30px
+
+
+}
+
+.quadro-adicional h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+    margin-top: 890px
+}
