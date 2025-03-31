@@ -159,21 +159,23 @@ body {
     height: 100%;
 }
 
+
+
 .banner-content h1 {
-    font-family: Nunito;
-    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
     font-size: 100px;
     line-height: 100%;
     letter-spacing: 0%;
-    font-weight: uppercase;
+    
 }
 
 .no-bold {
-    font-weight: normal;
+    font-weight: 300; /* Ou 200, dependendo da espessura desejada */
 }
 
 .banner-content h2 {
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 60px;
     line-height: 100%;
@@ -183,7 +185,7 @@ body {
 }
 
 .banner-content p {
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 25px;
     line-height: 100%;
