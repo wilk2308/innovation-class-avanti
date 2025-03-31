@@ -135,19 +135,26 @@ body {
     position: relative;
     width: 100%;
     max-width: 1920px;
-    height: 310px;
+    height: 290px;
     background: #E7E7EA;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
     padding: 0 100px;
+    overflow: hidden; /* Oculta o que ultrapassa os limites */
 }
 
+
+
 .chair-image {
-    width: 250px;
-    height: 310px;
-    mix-blend-mode: darken;
+    width: 350px; /* Aumenta o tamanho */
+    height: auto; /* Mantém a proporção */
+    position: absolute;
+    top: -200px; /* Ajusta a posição */
+    left: 220px; /* Ajusta a posição */
+    object-fit: contain;
+    z-index: 1;
 }
 
 .banner-content {
@@ -164,9 +171,11 @@ body {
 .banner-content h1 {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
-    font-size: 100px;
+    font-size: 60px;
     line-height: 100%;
     letter-spacing: 0%;
+    margin-left: 250px; 
+    
     
 }
 
@@ -177,21 +186,25 @@ body {
 .banner-content h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 45px;
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
     color: #005CFF;
+    margin-left: 250px;  
+
 }
 
 .banner-content p {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 100%;
     letter-spacing: 30%;
     text-transform: uppercase;
     color: #005CFF;
+    margin-left: 250px; 
+
 }
 
 .btn-banner {
