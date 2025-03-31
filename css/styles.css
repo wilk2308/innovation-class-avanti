@@ -1,0 +1,211 @@
+/* Mobile First - Estilos padrão para celular */
+body {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.lp-container {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Ajustes para tablets */
+@media (min-width: 768px) {
+    .lp-container {
+        max-width: 1200px;
+    }
+}
+
+/* Ajustes para desktop */
+@media (min-width: 1200px) {
+    .lp-container {
+        max-width: 1920px;
+    }
+    body {
+        font-size: 18px;
+    }
+}
+
+.discount-banner {
+    background-color: #0041A1; /* Azul mais intenso */
+    color: white;
+    text-align: center;
+    font-size: 12px; /* Aumentei um pouco o tamanho da fonte para melhorar a legibilidade */
+    width: 100%;
+}
+
+.logo-img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.search-container {
+    flex: 1;
+    max-width: 500px;
+    position: relative;
+}
+
+#search-box {
+    width: 100%;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: Nunito Sans;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0%;
+}
+
+.menu-icons i {
+    font-size: 20px;
+    color: #005CFF;
+    transition: color 0.3s ease;
+}
+
+.menu-icons i:hover {
+    color: #003ebf; /* Cor de hover para ícones */
+}
+
+/* Menu de Categorias e Departamentos */
+.departments-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+.categories-menu {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.categories-menu i {
+    font-size: 18px;
+}
+
+.departments {
+    display: flex;
+    gap: 40px;
+    white-space: nowrap;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.main-banner {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    height: 310px;
+    background: #E7E7EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 100px;
+}
+
+.chair-image {
+    width: 250px;
+    height: 310px;
+    mix-blend-mode: darken;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.banner-content h1 {
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-weight: uppercase;
+}
+
+.no-bold {
+    font-weight: normal;
+}
+
+.banner-content h2 {
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #005CFF;
+}
+
+.banner-content p {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 30%;
+    text-transform: uppercase;
+    color: #005CFF;
+}
+
+.btn-banner {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #005CFF;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.btn-banner:hover {
+    background-color: #003ebf;
+}
+
