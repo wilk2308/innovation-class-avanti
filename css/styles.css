@@ -511,6 +511,6 @@ body {
     top: 180px; /* Ajusta a posição do segundo parágrafo */
 }
 
-.quadro-terceiro p:nth-child(4) { /* Seleciona o segundo parágrafo */
-    top: 250px; /* Ajusta a posição do segundo parágrafo */
+.quadro-terceiro p:nth-child(4) { /* Seleciona o terceiro parágrafo */
+    top: 250px; /* Ajusta a posição do terceiro parágrafo */
 }
