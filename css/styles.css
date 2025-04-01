@@ -461,3 +461,56 @@ body {
     text-transform: uppercase;
     margin-top: 890px
 }
+
+.quadro-terceiro {
+    width: 1860px;
+    height: 600px;
+    top: 1600px;
+    left: -600px;
+    background: #DEDEDE;
+    position: absolute; 
+}
+
+
+.caneca-imagem2 {
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    /* Ajuste a posição conforme necessário */
+    top: 55px;
+    left: 1300px;
+}
+
+.quadro-terceiro h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50px;
+    left: 890px;
+}
+
+.quadro-terceiro p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 6%;
+    text-align: left;
+    position: relative; /* Alterado para relative */
+    top: 100px; /* Removido */
+    left: 880px;
+    width: 300px;
+    margin-bottom: -30px;
+}
+
+.quadro-terceiro p:nth-child(3) { /* Seleciona o segundo parágrafo */
+    top: 180px; /* Ajusta a posição do segundo parágrafo */
+}
+
+.quadro-terceiro p:nth-child(4) { /* Seleciona o segundo parágrafo */
+    top: 250px; /* Ajusta a posição do segundo parágrafo */
+}
