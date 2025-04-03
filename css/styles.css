@@ -462,6 +462,9 @@ body {
     margin-top: 890px
 }
 
+
+
+
 .quadro-terceiro {
     width: 1860px;
     height: 600px;
@@ -514,3 +517,124 @@ body {
 .quadro-terceiro p:nth-child(4) { /* Seleciona o terceiro parágrafo */
     top: 250px; /* Ajusta a posição do terceiro parágrafo */
 }
+
+.elipse {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 1710px;
+    left: 150px;
+    background: #005CFF; /* Cor azul especificada */
+    border-radius: 50%; /* Mantém a forma circular */
+    z-index: 10; /* Garante que fique acima do .quadro-terceiro */
+  }
+
+
+
+.elipse {
+    width: 90px;
+    height: 90px;
+    background: #005CFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-location {
+    font-size: 45px;
+    color: white; /* Apenas o ícone dentro da elipse será branco */
+}
+
+
+.elipse {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 1710px;
+    left: 150px;
+    background: #005CFF; /* Cor azul especificada */
+    border-radius: 50%; /* Mantém a forma circular */
+    z-index: 10; /* Garante que fique acima do .quadro-terceiro */
+  }
+
+
+
+.elipse {
+    width: 90px;
+    height: 90px;
+    background: #005CFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-location {
+    font-size: 45px;
+    color: white; /* Apenas o ícone dentro da elipse será branco */
+}
+
+
+.elipse2 {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 1890px;
+    left: 150px;
+    background: #005CFF; /* Cor azul especificada */
+    border-radius: 50%; /* Mantém a forma circular */
+    z-index: 10; /* Garante que fique acima do .quadro-terceiro */
+  }
+
+
+
+.elipse2 {
+    width: 90px;
+    height: 90px;
+    background: #005CFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-location2 {
+    font-size: 45px;
+    color: white; /* Apenas o ícone dentro da elipse será branco */
+}
+
+
+.elipse3 {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 2060px;
+    left: 150px;
+    background: #005CFF; /* Cor azul especificada */
+    border-radius: 50%; /* Mantém a forma circular */
+    z-index: 10; /* Garante que fique acima do .quadro-terceiro */
+  }
+
+
+
+.elipse3 {
+    width: 90px;
+    height: 90px;
+    background: #005CFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-location3 {
+    font-size: 45px;
+    color: white; /* Apenas o ícone dentro da elipse será branco */
+}
+
+
+  
+
+
+  
