@@ -3,12 +3,19 @@ body {
     font-size: 16px;
     padding: 0;
     margin: 0;
+    min-height: 100vh; /* Faz com que o body ocupe pelo menos toda a altura da tela */
+    display: flex;
+    flex-direction: column;
 }
 
+
 .lp-container {
+    flex: 1; /* Faz com que a lp-container ocupe todo o espaço disponível */
     width: 100%;
     padding: 10px;
+    box-sizing: border-box;
 }
+
 
 /* Ajustes para tablets */
 @media (min-width: 768px) {
@@ -688,4 +695,206 @@ body {
     letter-spacing: 4%;
     text-transform: uppercase;
     margin-top: 890px
+}
+
+
+
+
+
+
+.lancamentos2 {
+    width: 100%;
+    padding: 20px;
+    background: white;
+    position: relative; /* Ajusta sua posição dentro do fluxo normal */
+    bottom: 0;
+    left: 0;
+    top: 1450px;
+}
+
+  
+  .lancamentos-header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .lancamentos-carousel2 {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative; /* Adicionado para posicionar as setas corretamente */
+}
+
+.lancamentos-carousel2 {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-nav2 {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2; /* Certifique-se de que a seta tenha um z-index maior */
+}
+
+.carousel-nav.prev2 {
+    left: 0;
+}
+
+.carousel-nav.next2 {
+    right: 0;
+}
+
+.carousel-items2 {
+    display: flex;
+    transition: transform 0.5s ease;
+    z-index: 1; /* Certifique-se de que os itens tenham um z-index menor */
+}
+  
+  .carousel-items2 {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .lancamentos-header2 h2,
+.lancamento-item2 h3,
+.lancamento-item .comprar-btn2 { /* Aplica aos títulos e botão */
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.lancamento-item2 p,
+.parcelamento2 { /* Aplica aos parágrafos e parcelamento */
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400; /* Define peso regular para parágrafos */
+    font-size: 12px; /* Ajuste o tamanho conforme necessário */
+    line-height: 100%; /* Ajuste a altura da linha se precisar */
+    letter-spacing: 0px;
+}
+
+.preco-antigo2,
+.preco-atual2,
+.desconto2{ /* Aplica aos preços e desconto */
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px; /* Ajuste o tamanho se precisar */
+}
+
+  
+  .lancamento-item2 {
+    width: 200px;
+    margin: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lancamento-imagem2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.lancamento-info2 {
+    padding: 10px;
+}
+
+.lancamento-preco2 {
+    display: flex; /* Adicionado para alinhar preços e desconto */
+    align-items: center; /* Alinha verticalmente os itens */
+    margin-top: 5px; /* Adicionado para espaçamento */
+}
+
+.lancamentos-header2 a {
+    /* Estilos padrão do link */
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000; /* Cor padrão do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    cursor: default; /* Cursor padrão (seta) */
+}
+
+.lancamentos-header2 a:hover {
+    /* Estilos quando o mouse passa sobre o link */
+    color: #007bff; /* Cor do link quando o mouse passa sobre ele */
+    text-decoration: underline; /* Adiciona sublinhado quando o mouse passa sobre ele */
+    cursor: pointer; /* Muda o cursor para "pointer" (mãozinha) */
+}
+
+
+.precos2 {
+    display: flex;
+    flex-direction: column; /* Exibe os preços em colunas */
+    align-items: flex-start; /* Alinha os preços à esquerda */
+    margin-right: 10px; /* Adicionado para espaçamento */
+}
+
+.preco-antigo2 {
+    text-decoration: line-through;
+    color: #888;
+    margin-bottom: 5px; /* Adicionado para espaçamento */
+    font-size: 12px; /* Diminui o tamanho da fonte */
+}
+
+.preco-atual2 {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 16px; /* Diminui o tamanho da fonte */
+}
+
+.desconto2 {
+    background-color: #e0f7fa;
+    color: #0097a7;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.parcelamento2 {
+    font-size: 12px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.comprar-btn2 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.carousel-nav2 {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-nav2.prev2 {
+    left: 0;
+}
+
+.carousel-nav2.next2 {
+    right: 0;
 }
