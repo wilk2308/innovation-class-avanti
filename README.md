@@ -24,7 +24,7 @@ Este projeto consiste no desenvolvimento de um layout proposto no Figma utilizan
 ## 🛠️ Tecnologias Utilizadas  
 - **HTML5**  
 - **CSS3** *(com framework: Bootstrap)*  
-- **JavaScript (vanilla ou com bibliotecas para carrossel)**  
+- **JavaScript**  
 
 ## 🚀 Como Executar o Projeto  
 1️⃣ Clone o repositório:  
