@@ -898,3 +898,40 @@ body {
 .carousel-nav2.next2 {
     right: 0;
 }
+
+
+.quadro-abaixo-carrossel2-adicional {
+    width: 1250px;
+    height: 400px;
+    top: 3500px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid #005CFF;
+}
+
+.quadro-abaixo-carrossel2-adicional img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.retangulo-texto {
+    position: absolute;
+    width: 100%; /* Ajuste a largura  */
+    height: 18%; /* Ajuste a altura  */
+    background-color: #005CFF;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.retangulo-texto p {
+    font-size: 1.5em;
+    color: white;
+    padding: 20px;
+}
