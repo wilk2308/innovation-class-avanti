@@ -467,7 +467,7 @@ body {
 
 .quadro-terceiro {
     width: 1860px;
-    height: 600px;
+    height: 680px;
     top: 1600px;
     left: -600px;
     background: #DEDEDE;
@@ -637,4 +637,55 @@ body {
   
 
 
-  
+.quadro-abaixo-carrossel2 {
+    width: 600px;
+    height: 500px;
+    left: 10px;
+    background: #C2C2C2;
+    top: 2380px;
+    position: absolute;
+    display: flex; /* Permite alinhar elementos filhos */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.caneca-imagem3 {
+    width: 523px;
+    height: 528px;
+    position: relative; /* Mantém a imagem dentro do quadro */
+    transform: rotate(1.54deg);
+    max-width: 100%; /* Garante que a imagem não ultrapasse o quadro */
+    max-height: 100%;
+}
+
+
+
+.quadro-adicional2 {
+    width: 487px;
+    height: 536px;
+    top: 1490px;
+    left: 690px;
+    position: absolute;
+    
+}
+
+.quadro-adicional2 p {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 5%;
+    margin-top: 30px
+
+
+}
+
+.quadro-adicional2 h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+    margin-top: 890px
+}
