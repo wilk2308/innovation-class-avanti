@@ -29,7 +29,7 @@ Este projeto consiste no desenvolvimento de um layout proposto no Figma utilizan
 ## 🚀 Como Executar o Projeto  
 1️⃣ Clone o repositório:  
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/wilk2308/innovation-class-avanti
 ```
 2️⃣ Acesse a pasta do projeto e abra o arquivo `index.html` no navegador.  
 
