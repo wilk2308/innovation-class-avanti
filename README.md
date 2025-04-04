@@ -19,11 +19,11 @@ Este projeto consiste no desenvolvimento de um layout proposto no Figma utilizan
    - Ao clicar no botão da lupa, o texto digitado no campo de busca é exibido abaixo com a mensagem:  
      `"Você buscou por: 'assunto buscado'"`  
 3️⃣ **Carrosséis**:  
-   - Implementação de carrosséis utilizando uma biblioteca.  
+   - Implementação de carrosséis.  
 
 ## 🛠️ Tecnologias Utilizadas  
 - **HTML5**  
-- **CSS3** *(com framework: Bootstrap/Bulma ou outro escolhido)*  
+- **CSS3** *(com framework: Bootstrap)*  
 - **JavaScript (vanilla ou com bibliotecas para carrossel)**  
 
 ## 🚀 Como Executar o Projeto  
@@ -34,8 +34,6 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 2️⃣ Acesse a pasta do projeto e abra o arquivo `index.html` no navegador.  
 
 ## 📝 Autor  
-Desenvolvido por **[Seu Nome]**.  
+Desenvolvido por **Will Sousa**.  
 
----  
-🕒 **Prazo de Entrega:** 25/04/2025  
 
