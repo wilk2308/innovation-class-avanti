@@ -95,3 +95,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
     updateCarousel2();
 });
+
+
+document.getElementById('search-button').addEventListener('click', function () {
+    const searchBox = document.getElementById('search-box');
+    const searchTerm = searchBox.value.trim();
+
+    let resultElement = document.getElementById('search-result');
+    if (!resultElement) {
+        resultElement = document.createElement('p');
+        resultElement.id = 'search-result';
+        resultElement.style.marginTop = '10px';
+        searchBox.parentNode.appendChild(resultElement);
+    }
+
+    if (searchTerm) {
+        resultElement.textContent = `Você buscou por: '${searchTerm}'`;
+    } else {
+        resultElement.textContent = '';
+    }
+});
